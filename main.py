@@ -28,11 +28,12 @@ class Game:
             if event.type == pygame.QUIT:
                 self.playing = False
                 self.running = False
-                  -
 
     def update(self):
+        pass
 
     def draw(self):
+        pass
 
     def main(self):
         # game loop
@@ -43,5 +44,7 @@ class Game:
         self.running = False
 
     def game_over(self):
+        pass
 
     def intro_screen(self):
+        pass
