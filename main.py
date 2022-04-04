@@ -4,7 +4,7 @@ from config import *
 import sys
 
 class Game:
-    def_init_(self):
+    def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
         self.clock = pygame.time.Clock()
@@ -25,7 +25,7 @@ class Game:
     def events(self):
         # game loop events
         for event in pygame.event.get():
-            if event.type = pygame.QUIT:
+            if event.type == pygame.QUIT:
                 self.playing = False
                 self.running = False
                   -
