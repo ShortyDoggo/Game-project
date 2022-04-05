@@ -14,15 +14,4 @@ class Player(pygame.sprite.Sprite):
         self.y = y * TILESIZE
         self.width = TILESIZE
         self.height = TILESIZE
-
-        self.image = pygame.Surface([self.width, self.height])
-        self.image.fill(RED)
-
-        self.rect = self.image.get_rect()
-        self.rect.x = self.x
-        self.rect.y = self.y
-
-    def update(self):
-        pass 
-
-
+        
